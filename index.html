@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX and JSON</title>
+    <style>
+        h1{
+            margin-top: 10%;
+        }
+        button{
+            float: right;
+            margin-top: -7%;
+            margin-right: 45%;
+            color: white;
+            background-color: blueviolet;
+            padding: 9px;
+            border-radius: 2%;
+            border: none;
+        }
+        button:hover{
+            background-color: burlywood;
+            cursor: pointer;
+            transform: translateZ(200%);
+        }
+        .hide-me{
+            transition: .5s ease-out;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>JSON and AJAX</h1>
+       <button id="btn">INFO for 3 New Animals</button>
+   </header>
+   <div id="animal-info"></div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
